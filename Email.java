@@ -29,9 +29,6 @@ public class Email{
         URL page = null;
         Scanner webInput = null;
         String line = null;
-        System.getProperties().put("proxySet", "true");
-        System.getProperties().put("proxyHost", "152.78.128.51");
-        System.getProperties().put("proxyPort", "3128");
         
         try {
             page = new URL(url);
